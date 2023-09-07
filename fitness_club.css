@@ -1,0 +1,99 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+body{
+    background-image: url('img/fitness.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+.navbar{
+    display: flex;
+}
+.logo{
+    width: 150px;
+}
+.logo img{
+    margin-left: 30px;
+    margin-top: 20px;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    object-position: center;
+}
+.details{
+    flex: 8;
+    margin-left: 30px;
+    margin-top: 45px;
+    text-align: center;
+}
+.details a{
+    margin-left: 45px;
+    color: whitesmoke;
+    font-weight: 600;
+}
+.right-nav{
+    margin-top: 35px;
+    margin-right: 20px;
+    text-align: center;
+}
+.right-nav button{
+    align-items: normal;
+    font-weight: 550;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 2px;
+    background-color: rgb(224, 224, 224);
+}
+.right-nav button:hover{
+    background-color: rgb(251, 251, 251);
+    cursor: pointer;
+}
+.mid{
+   height: 500px;
+   margin-top: 80px;
+}
+.mid h2{
+    color: white;
+    text-align: center;
+    padding-bottom: 25px;
+}
+.mid p{
+    padding-top: 5px;
+    text-align: center;
+}
+input[type="text"]{
+    width: 30%;
+    padding: 12px;
+    border-radius: 7px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-decoration: double;
+    font-size: 15px;
+}
+input[type="submit"]{
+    width: 30%;
+    padding: 12px;
+    border-radius: 7px;
+    background-color: black;
+    color: rgb(253, 246, 233);
+    text-align: center;
+    text-decoration: double;
+    font-size: 15px;
+    border: 2px inset rgb(120, 118, 118);
+}
+input[type="submit"]:hover{
+    background-color: rgb(34, 32, 32);
+    cursor: pointer;
+}
+.footer a{
+    padding-left: 46%;
+    margin-top: 20px;
+    color: rgb(202, 202, 202);
+}
